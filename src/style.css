@@ -1,0 +1,23 @@
+html {
+  overflow: hidden auto;
+  scroll-behavior: smooth;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  color: white;
+  background-color: #0F1730;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

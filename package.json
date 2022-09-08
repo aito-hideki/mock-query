@@ -1,0 +1,45 @@
+{
+  "name": "atlan-test",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,ts,vue src"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "@netlify/functions": "^1.2.0",
+    "axios": "^0.27.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
+    "@ehutch79/vite-eslint": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "@vue/eslint-config-typescript": "^11.0.1",
+    "commitlint": "^17.1.2",
+    "eslint": "^8.23.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.1.0",
+    "vite-plugin-pages": "^0.26.0",
+    "vite-plugin-vue-layouts": "^0.7.0",
+    "vite-plugin-windicss": "^1.8.7",
+    "vue-tsc": "^0.40.4",
+    "windicss": "^3.5.6"
+  }
+}
