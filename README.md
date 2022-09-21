@@ -6,11 +6,33 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-## Type Support For `.vue` Imports in TS
+## Technologies used in the project
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+My focus was more on adding technologies that helps building scalable apps.
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- Vue 3(with Vue Composition API), Vite, TypeScript
+I am a fan of Vue3, TypeScript, Vite.  
+TL;DR  
+Vue 3 definitely has a lot of improvement over Vue 2.  
+Vite has 0 secs HMR time, so it's very helpful for development.  
+TypeScript provides strict type checking, so we can avoid a lot of type errors and we can build things easily within the help of intellisense.
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- Auto routing, Auto component management
+The bigger the project gets, the messier the route config gets.
+So, auto routing is always helpful when it comes with scalability.  
+Same for component management.
+The bigger the project gets, the more dependencies between components we will have.
+That's why a lot of people love Nuxt that provides auto component management.  
+But we can simply do those things with these 2 libraries.
+
+- ESLint, CommitLint
+Linting is always important to get project organized.
+But before we going forward with linting, we need to make sure that we confirmed linting presets or rules.
+I used vue community recommneded presets and some more custom rules for ESLint.
+
+- WindiCSS
+WindiCSS is a utility-first CSS framework and is similar to TailwindCSS.
+It's compatible with TailwindCSS v2.0 and has more powerful features like shortcuts.
+
+- Netlify functions to mock API
+Used Netlify functions to mock API because it's used for only mocking purpose.

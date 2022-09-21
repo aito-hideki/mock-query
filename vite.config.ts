@@ -22,7 +22,7 @@ export default defineConfig({
     ...(process.env.NODE_ENV === 'development'
       ? [viteESLint({ include: ['src/**/*.vue', 'src/**/*.ts'] })]
       : []
-    ),
+    )
   ],
   resolve: {
     alias: {
