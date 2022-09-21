@@ -6,6 +6,22 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
+## Project description
+
+### How to setup
+
+- install netlify cli globally by `npm i netlify-cli -g`
+- `yarn install` or just `yarn` to install dependencies
+- Run `netlify dev` to run netlify functions and app locally
+
+### How to use
+
+You can enter whatever the dummy information in the server config dialog to get started.  
+You enter some random query and click on `Submit` button.  
+It will grab some random information from the mock API and show on the right panel.  
+They are all randomly generated on the Netlify funciton.  
+If you wanna change the server config, you can click on `Connect Database` to edit server information.
+
 ## Technologies used in the project
 
 My focus was more on adding technologies that helps building scalable apps.
