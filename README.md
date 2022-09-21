@@ -16,11 +16,11 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 ### How to use
 
-You can enter whatever the dummy information in the server config dialog to get started.  
-You enter some random query and click on `Submit` button.  
-It will grab some random information from the mock API and show on the right panel.  
-They are all randomly generated on the Netlify funciton.  
-If you wanna change the server config, you can click on `Connect Database` to edit server information.
+- You can enter whatever the dummy information in the server config dialog to get started.
+- You enter some random query and click on `Submit` button.
+- It will grab some random information from the mock API and show on the right panel.
+- They are all randomly generated on the Netlify funciton.
+- If you wanna change the server config, you can click on `Connect Database` to edit server information.
 
 ## Technologies used in the project
 
