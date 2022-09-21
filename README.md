@@ -10,14 +10,14 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 My focus was more on adding technologies that helps building scalable apps.
 
-- Vue 3(with Vue Composition API), Vite, TypeScript
+- Vue 3(with Vue Composition API), Vite, TypeScript  
 I am a fan of Vue3, TypeScript, Vite.  
 TL;DR  
 Vue 3 definitely has a lot of improvement over Vue 2.  
 Vite has 0 secs HMR time, so it's very helpful for development.  
 TypeScript provides strict type checking, so we can avoid a lot of type errors and we can build things easily within the help of intellisense.
 
-- Auto routing, Auto component management
+- Auto routing, Auto component management  
 The bigger the project gets, the messier the route config gets.
 So, auto routing is always helpful when it comes with scalability.  
 Same for component management.
@@ -25,14 +25,14 @@ The bigger the project gets, the more dependencies between components we will ha
 That's why a lot of people love Nuxt that provides auto component management.  
 But we can simply do those things with these 2 libraries.
 
-- ESLint, CommitLint
+- ESLint, CommitLint  
 Linting is always important to get project organized.
 But before we going forward with linting, we need to make sure that we confirmed linting presets or rules.
 I used vue community recommneded presets and some more custom rules for ESLint.
 
-- WindiCSS
+- WindiCSS  
 WindiCSS is a utility-first CSS framework and is similar to TailwindCSS.
 It's compatible with TailwindCSS v2.0 and has more powerful features like shortcuts.
 
-- Netlify functions to mock API
+- Netlify functions to mock API  
 Used Netlify functions to mock API because it's used for only mocking purpose.
